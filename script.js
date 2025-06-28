@@ -5,6 +5,7 @@ function newGrid(){
     container.innerHTML=""
     for (j = 0; j < num; j++) {
     const row = document.createElement("div")
+    row.classList.add("row")
     for (i = 0; i < num; i++) {
         const box = document.createElement("div")
         box.classList.add("box")
@@ -18,6 +19,7 @@ function newGrid(){
 }
 for (j = 0; j < 16; j++) {
     const row = document.createElement("div")
+    row.classList.add("row")
     for (i = 0; i < 16; i++) {
         const box = document.createElement("div")
         box.classList.add("box")
