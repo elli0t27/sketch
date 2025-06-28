@@ -2,6 +2,7 @@
     /* border: 2px solid ; */
     box-sizing: border-box;
     flex: 1;
+    opacity: 0;
 }
 .grid{
     display: flex;
@@ -12,7 +13,8 @@
 }
 
 .hovered{
-    background-color: blue;
+    background-color: black;
+    opacity: 0;
 }
 
 .row{
